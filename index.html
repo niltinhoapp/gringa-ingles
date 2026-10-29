@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ClearSky Web Design builds fast, mobile-friendly websites for local residential HVAC companies across the United States. Make it easy for homeowners to call, request estimates, and reach your team.">
+  <meta name="theme-color" content="#0f233a">
+  <title>ClearSky Web Design | Websites for Local HVAC Companies</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-container">
+      <a href="#top" class="brand-logo" aria-label="ClearSky Web Design Home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+          </svg>
+        </span>
+        <span class="logo-text">ClearSky Web Design</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Toggle -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="navToggle" 
+        aria-expanded="false" 
+        aria-controls="primaryNav" 
+        aria-label="Toggle navigation menu">
+        <span class="hamburger-box" aria-hidden="true">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <!-- Primary Navigation -->
+      <nav class="primary-nav" id="primaryNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#what-you-get" class="nav-link">What You Get</a></li>
+          <li class="nav-item"><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="header-action">
+          <a href="#contact" class="btn btn-primary btn-sm">Get a Free Website Review</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <!-- Video Background with Poster Fallback & CSS Gradient Fallback -->
+      <div class="hero-media-wrapper" aria-hidden="true">
+        <video 
+          id="heroVideo" 
+          class="hero-video" 
+          autoplay 
+          muted 
+          loop 
+          playsinline 
+          poster="media/hero-poster.webp">
+          <source src="media/hero-video.mp4" type="video/mp4">
+          <source src="/media/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-inner">
+          <span class="badge badge-accent">Web Design for Residential HVAC</span>
+          <h1 id="hero-title" class="hero-headline">
+            Websites that make it easier for HVAC customers to reach you.
+          </h1>
+          <p class="hero-subtext">
+            I build fast, mobile-friendly websites for local heating and air conditioning companies. Help customers understand your services, see where you work, and request an estimate.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Request a Free Website Review</a>
+            <a href="mailto:csinput@gmail.com" class="btn btn-secondary btn-lg">Email Me</a>
+          </div>
+          <p class="hero-reassurance">
+            <svg class="reassurance-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>No pressure. Email is the easiest way to get started.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem / Value Section -->
+    <section class="section section-value" id="value" aria-labelledby="value-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 id="value-heading" class="section-title">
+            Make a strong first impression when customers need HVAC service.
+          </h2>
+          <p class="section-lead">
+            When someone’s heating or air conditioning stops working, they want clear answers and an easy way to contact a local company. Your website should make your services, service area, and next step easy to find.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Benefit 1 -->
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Easy to use on a phone</h3>
+            <p class="feature-description">
+              Most homeowners search in a hurry when a furnace shuts off or an AC unit freezes. A responsive layout keeps your contact buttons and information front and center without pinch-zooming.
+            </p>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Clear service and service-area information</h3>
+            <p class="feature-description">
+              Show exactly what you repair, install, and maintain, plus the cities and counties you cover. Visitors can immediately confirm that your team handles their equipment and works in their neighborhood.
+            </p>
+          </div>
+
+          <!-- Benefit 3 -->
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Simple ways to call or request an estimate</h3>
+            <p class="feature-description">
+              Tap-to-call buttons make dialing instant on mobile devices, while a lightweight contact form gives busy homeowners a fast way to request an estimate in writing when they cannot talk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="section section-deliverables" id="what-you-get" aria-labelledby="deliverables-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Comprehensive Setup</span>
+          <h2 id="deliverables-heading" class="section-title">
+            A website built around your business
+          </h2>
+          <p class="section-lead">
+            Every element is tailored specifically for your residential heating and cooling company. Clear presentation, easy navigation, and zero unnecessary complexity.
+          </p>
+        </div>
+
+        <div class="checklist-grid">
+          <!-- Item 1 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Custom design for your HVAC company</h3>
+              <p class="checklist-text">A clean, focused website tailored to your brand colors, service offerings, and local audience.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Mobile-friendly pages</h3>
+              <p class="checklist-text">Responsive layouts tested to look sharp and function smoothly across smartphones, tablets, and desktop computers.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Service and service-area sections</h3>
+              <p class="checklist-text">Dedicated sections detailing AC repair, heating maintenance, heat pump installations, and the exact towns or zip codes you serve.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Tap-to-call and estimate request buttons</h3>
+              <p class="checklist-text">Prominent call-to-action buttons placed strategically so urgent customers can reach you with a single tap.</p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Contact form</h3>
+              <p class="checklist-text">A straightforward message form that collects necessary details without overwhelming the homeowner.</p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Basic on-page SEO setup</h3>
+              <p class="checklist-text">Proper title tags, meta descriptions, page headings, and local structured formatting so search engines can read your service details.</p>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="checklist-card">
+            <div class="checklist-check" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="checklist-content">
+              <h3 class="checklist-title">Help connecting your domain</h3>
+              <p class="checklist-text">Step-by-step guidance to point your custom domain name (e.g., yourcompany.com) to your new website securely.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="transparent-note">
+          <p>
+            <strong>Clear, honest expectations:</strong> I build clean, dependable websites that make reaching you easy. I do not promise first-page Google rankings or a guaranteed volume of leads, because no web designer controls search algorithms or consumer demand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section section-steps" id="how-it-works" aria-labelledby="steps-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Straightforward Collaboration</span>
+          <h2 id="steps-heading" class="section-title">
+            Simple, step-by-step process
+          </h2>
+          <p class="section-lead">
+            Getting a website shouldn’t disrupt your workday. The entire process is organized, transparent, and easy to complete in writing.
+          </p>
+        </div>
+
+        <div class="steps-container">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">1</div>
+            <div class="step-body">
+              <h3 class="step-title">Tell me about your business</h3>
+              <p class="step-text">Use the form or email. You can explain everything in writing.</p>
+              <p class="step-subtext">Share your main services, current website (if you have one), service towns, and any specific preferences.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">2</div>
+            <div class="step-body">
+              <h3 class="step-title">Review the plan</h3>
+              <p class="step-text">I’ll send a clear outline of the pages and features.</p>
+              <p class="step-subtext">You'll see exactly what will be included, how the site will be organized, and the timeline before any work begins.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">3</div>
+            <div class="step-body">
+              <h3 class="step-title">Review your website</h3>
+              <p class="step-text">You’ll have a chance to share feedback before launch.</p>
+              <p class="step-subtext">Test the pages on your own phone and computer, request adjustments, and approve everything prior to going live.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-faq" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Common Questions</span>
+          <h2 id="faq-heading" class="section-title">
+            Frequently Asked Questions
+          </h2>
+          <p class="section-lead">
+            Here are honest, direct answers to common questions about working together.
+          </p>
+        </div>
+
+        <div class="faq-accordion">
+          <!-- FAQ Item 1 -->
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Do I need to know anything about websites?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. I’ll explain the steps in plain language and guide you through the information I need.</p>
+            </div>
+          </details>
+
+          <!-- FAQ Item 2 -->
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Do we have to talk on the phone?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. Email is welcome, and you can share the project details through the contact form.</p>
+            </div>
+          </details>
+
+          <!-- FAQ Item 3 -->
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can you guarantee more customers?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>No website can guarantee a specific result. I focus on making your services and contact options clear and easy to use.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-header text-center">
+            <span class="section-eyebrow">Get Started</span>
+            <h2 id="contact-heading" class="section-title">
+              Tell me what your business needs
+            </h2>
+            <p class="section-lead">
+              Fill out the form and I’ll reply by email. You do not need to book a call.
+            </p>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <!-- Form Status Alert (for client feedback, no false submission claims) -->
+            <div id="formAlert" class="form-alert" role="alert" aria-live="polite" hidden></div>
+
+            <div class="form-grid">
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="contactName" class="form-label">
+                  Your name <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="contactName" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. John Miller" 
+                  required 
+                  aria-required="true">
+                <span class="field-error" id="nameError" aria-live="polite"></span>
+              </div>
+
+              <!-- Business Name Field -->
+              <div class="form-group">
+                <label for="contactBusiness" class="form-label">Business name</label>
+                <input 
+                  type="text" 
+                  id="contactBusiness" 
+                  name="business" 
+                  class="form-input" 
+                  placeholder="e.g. Miller Heating &amp; Air">
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">
+                  Email address <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="contactEmail" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. john@millerhvac.com" 
+                  required 
+                  aria-required="true">
+                <span class="field-error" id="emailError" aria-live="polite"></span>
+              </div>
+
+              <!-- City & State Field -->
+              <div class="form-group">
+                <label for="contactLocation" class="form-label">City and state</label>
+                <input 
+                  type="text" 
+                  id="contactLocation" 
+                  name="location" 
+                  class="form-input" 
+                  placeholder="e.g. Columbus, OH">
+              </div>
+
+              <!-- Need Dropdown -->
+              <div class="form-group full-width">
+                <label for="contactNeed" class="form-label">What do you need?</label>
+                <select id="contactNeed" name="need" class="form-select">
+                  <option value="A new website">A new website</option>
+                  <option value="Improve my current website">Improve my current website</option>
+                  <option value="I’m not sure yet">I’m not sure yet</option>
+                </select>
+              </div>
+
+              <!-- Details Field -->
+              <div class="form-group full-width">
+                <label for="contactDetails" class="form-label">A few details about your business</label>
+                <textarea 
+                  id="contactDetails" 
+                  name="details" 
+                  rows="4" 
+                  class="form-textarea" 
+                  placeholder="Tell me about your current website (if any), main services, or questions..."></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                Send My Request
+              </button>
+            </div>
+
+            <!-- Mandatory Note Below Button -->
+            <p class="form-footer-note">
+              Your email app will open with your message ready to send. You can also email me directly at <a href="mailto:csinput@gmail.com" class="direct-email-link">csinput@gmail.com</a>.
+            </p>
+          </form>
+
+          <!-- Alternative Direct Contacts: Email and Optional Facebook Messenger -->
+          <div class="alternative-contact-container">
+            <div class="direct-contact-item">
+              <span class="direct-contact-label">Direct Email:</span>
+              <a href="mailto:csinput@gmail.com" class="direct-contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+                <span>csinput@gmail.com</span>
+              </a>
+            </div>
+
+            <!-- Messenger Button: Controlled dynamically by FACEBOOK_MESSENGER_URL in script.js -->
+            <!-- If the placeholder is unchanged, this element remains hidden -->
+            <div id="messengerContainer" class="messenger-container" hidden>
+              <a 
+                id="messengerBtn" 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn btn-messenger">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.91 1.455 5.518 3.734 7.202V22l3.376-1.853c.915.253 1.887.391 2.89.391 5.523 0 10-4.145 10-9.28C22 6.145 17.523 2 12 2zm1.002 12.433l-2.559-2.73-4.995 2.73 5.494-5.834 2.624 2.73 4.93-2.73-5.494 5.834z"/>
+                </svg>
+                <span>Message Me on Facebook</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Call to Action Section -->
+    <section class="section section-final-cta" aria-labelledby="final-cta-heading">
+      <div class="container text-center">
+        <div class="final-cta-box">
+          <h2 id="final-cta-heading" class="final-cta-title">
+            Let’s make it easier for customers to contact your HVAC business.
+          </h2>
+          <p class="final-cta-text">
+            Tell me a little about your business and what you’d like your website to do.
+          </p>
+          <div class="final-cta-action">
+            <a href="#contact" class="btn btn-primary btn-lg">Request a Free Website Review</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <p class="footer-logo">ClearSky Web Design</p>
+        <p class="footer-tagline">Websites for local HVAC companies</p>
+      </div>
+
+      <div class="footer-contact">
+        <p class="footer-email-line">
+          Email: <a href="mailto:csinput@gmail.com" class="footer-email-link">csinput@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="copyrightYear">2026</span> ClearSky Web Design. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Contact Action Button -->
+  <div class="mobile-sticky-bar" id="mobileStickyBar" aria-label="Quick mobile contact">
+    <a href="#contact" class="btn btn-primary btn-mobile-sticky">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+      <span>Request a Free Website Review</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
